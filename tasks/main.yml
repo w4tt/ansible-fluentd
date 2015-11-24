@@ -25,7 +25,7 @@
 - apt_key: url=http://packages.treasuredata.com/GPG-KEY-td-agent state=present
 
 # set dedicated repository
-- apt_repository: repo='deb http://packages.treasuredata.com/2/debian/wheezy/ wheezy contrib' state=present
+- apt_repository: repo='deb http://packages.treasuredata.com/2/debian/jessie/ jessie contrib' state=present
 
 # install fluentd with dependancies
 - name: install fluentd
